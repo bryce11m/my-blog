@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Blog Title 
-email: author_email@email.com 
-description: "Change the description so that it describes your blog" 
-baseurl: "/stat386-blog-theme" # the name of the repository 
-url: "https://esnt.github.io" #  change this to "https://<your-github-username>.github.io"
+title: How to do Homework Using R Markdown
+email: bwmarshall11@outlook.com
+description: "This blog is a general tutorial on how to structure and format homework assignments using R Markdown." 
+baseurl: "/my-blog" # the name of the repository 
+url: "https://bryce11m.github.io" #  change this to "https://<your-github-username>.github.io"
 image: https://source.unsplash.com/random
-author: Your name
+author: Bryce Marshall
 copyright: ABCD # Your initials or what you want the copyright to be.  Leave empty for no copyright
 footer_description: 'The default image for the site header is a random image from 
         <a href="https://source.unsplash.com/random" target="_blank"> Unsplash</a>. 
