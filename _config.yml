@@ -23,7 +23,7 @@ email: bwmarshall11@outlook.com
 description:  
 baseurl: "/my-blog" # the name of the repository 
 url: "https://bryce11m.github.io" #  change this to "https://<your-github-username>.github.io"
-image: https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,f_jpg,h_422,q_65,w_1440/v1/clients/goldenislesga/Play_Itineraries_Beach_Weekend_49e3ff62-112f-413e-a1a8-da107f08fd40.jpg
+image:
 author:
 copyright: BWM # Your initials or what you want the copyright to be.  Leave empty for no copyright
 footer_description: 
