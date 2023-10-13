@@ -20,7 +20,7 @@ To format your homework assignment using R Markdown, follow these steps:
 ### 1. Install R and RStudio
 If you don't already have them installed, you'll need both R and RStudio. You can download and install them from the following websites:
 
-[R](https://cran.r-project.org/mirrors.html)
+[R](https://rstudio-education.github.io/hopr/starting.html)
 
 [RStudio](https://www.rstudio.com/products/rstudio/download/)
 ### 2. Create an R Markdown Document
