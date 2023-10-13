@@ -18,33 +18,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: How to do Homework Using R Markdown
+title: Bryce Marshall's Data Science Blog
 email: bwmarshall11@outlook.com
-description: "This blog is a general tutorial on how to structure and format homework assignments using R Markdown." 
+description:  
 baseurl: "/my-blog" # the name of the repository 
 url: "https://bryce11m.github.io" #  change this to "https://<your-github-username>.github.io"
-image: https://source.unsplash.com/random
-author: Bryce Marshall
-copyright: ABCD # Your initials or what you want the copyright to be.  Leave empty for no copyright
-footer_description: 'The default image for the site header is a random image from 
-        <a href="https://source.unsplash.com/random" target="_blank"> Unsplash</a>. 
-        The default image for the blog post is from
-        <a href="https://unsplash.com/photos/DWpR-BpKlw0?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink" target="_blank"
-        >Unsplash by Mohamed Elsayed</a>. Students in Stat 386 using this theme should replace both images 
-        with their own.'
+image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.goldenisles.com%2Fblog%2Fpost%2Fbest-places-to-watch-the-sunset%2F&psig=AOvVaw3uzFb2szqqhf3FnkZH7lXd&ust=1697245436762000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKixn4zq8YEDFQAAAAAdAAAAABAR
+author:
+copyright: BWM # Your initials or what you want the copyright to be.  Leave empty for no copyright
+footer_description: 
 
 
 # Social media users names.  Leave fields blank that you don't want displayed
-twitter_username: 386student
-github_username:  386student
-linkedin_username: 386student
+twitter_username: 
+github_username:  
+linkedin_username: 
 dribbble_username: 
-facebook_username: 386student
+facebook_username: 
 flickr_username:
-instagram_username: 
+instagram_username: bmarsh_11
 pinterest_username:
 youtube_username: 
-googleplus_username: 386student
+googleplus_username: 
 
 plugins:
   - jekyll-feed
