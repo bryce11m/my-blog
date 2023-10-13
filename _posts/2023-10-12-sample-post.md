@@ -18,7 +18,9 @@ Easy Collaboration: R Markdown files can be shared with classmates or instructor
 To format your homework assignment using R Markdown, follow these steps:
 ### 1. Install R and RStudio
 If you don't already have them installed, you'll need both R and RStudio. You can download and install them from the following websites:
+
 R: https://cran.r-project.org/mirrors.html
+
 RStudio: https://www.rstudio.com/products/rstudio/download/
 ### 2. Create an R Markdown Document
 Open RStudio and go to File > New File > R Markdown. This will create a new R Markdown document. You can choose the default settings or customize them according to your preferences.
