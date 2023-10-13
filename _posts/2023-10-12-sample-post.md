@@ -37,10 +37,22 @@ Result
 To execute code chunks, click the green "Run" button in the upper right corner of the chunk. The output will be displayed directly below the code. This is where you can demonstrate the results of your calculations or analyses.
 ### 6. Generating Graphs and Figures
 If your homework involves creating plots or figures, you can include them in your R Markdown document. Use the ggplot2 package for creating high-quality visualizations. Don't forget to label and caption your figures appropriately.
+```
+library(ggplot2)
+
+# Create a simple scatter plot
+ggplot(data = mtcars, aes(x = mpg, y = wt)) +
+  geom_point() +
+  labs(title = "Miles per Gallon vs. Weight",
+       x = "Miles per Gallon",
+       y = "Weight")
+```
 ### 7. Managing Packages
 If you need specific packages for your assignment, make sure to load them at the beginning of your document using the library() function.
-
-Ex: library(dplyr)
+```
+library(dplyr)
+library(ggplot2)
+```
 ### 8. Creating Citations and References
 For academic assignments, it's important to cite your sources properly. You can create a bibliography section at the end of your document using the "References" header and include your citations using standard Markdown citation syntax.
 ## Exporting Your Document
