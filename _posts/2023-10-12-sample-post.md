@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to format Homework Assignments Using R Markdown"
+title:  "How to Format Homework Assignments Using R Markdown"
 author: Bryce Marshall
 description: A quick walkthrough   
 image: "/assets/images/mountains.jpg"
