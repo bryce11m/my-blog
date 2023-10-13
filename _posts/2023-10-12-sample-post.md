@@ -10,9 +10,13 @@ image: "/assets/images/mountains.jpg"
 R Markdown is a powerful tool for creating reproducible documents that blend text, code, and output into a single file. It is widely used for creating reports, research papers, and even homework assignments. This guide will walk you through the process of formatting a homework assignment using R Markdown.
 ## Why Use R Markdown for Homework Assignments?
 Before we dive into the formatting details, let's discuss why R Markdown is a great choice for your homework assignments:
+
 Reproducibility: R Markdown documents are incredibly reproducible. This means that you can easily rerun the code, regenerate the output, and update your assignment as needed, ensuring consistency and correctness.
+
 Professional Presentation: R Markdown allows you to create well-structured and neatly formatted documents. Your homework will look professional, making it easier for your instructors to assess your work.
+
 Combines Text and Code: R Markdown seamlessly integrates your explanations, equations, and code. This not only enhances readability but also helps you demonstrate your thought process clearly.
+
 Easy Collaboration: R Markdown files can be shared with classmates or instructors. Others can review and comment on your work, making it a great tool for collaboration.
 ## Getting Started
 To format your homework assignment using R Markdown, follow these steps:
