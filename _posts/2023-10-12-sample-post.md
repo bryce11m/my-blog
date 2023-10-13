@@ -14,6 +14,7 @@ Before we dive into the formatting details, let's discuss why R Markdown is a gr
   - Professional Presentation: R Markdown allows you to create well-structured and neatly formatted documents. Your homework will look      professional, making it easier for your instructors to assess your work.
   - Combines Text and Code: R Markdown seamlessly integrates your explanations, equations, and code. This not only enhances readability     but also helps you demonstrate your thought process clearly.
   - Easy Collaboration: R Markdown files can be shared with classmates or instructors. Others can review and comment on your work,          making   it a great tool for collaboration.
+
 ## Getting Started
 To format your homework assignment using R Markdown, follow these steps:
 ### 1. Install R and RStudio
@@ -67,6 +68,7 @@ Here are some tips to ensure your homework assignment is well-formatted using R 
   - Label Figures and Tables: Label your figures and tables appropriately, and include captions to explain their significance.
   - Properly Format Equations: If your assignment involves mathematical equations, use LaTeX syntax within your text to ensure proper       rendering.
   - Cite Your Sources: Provide proper citations for any references or external sources you use in your assignment.
+
 ## Conclusion
 Formatting your homework assignment using R Markdown not only makes your work look professional but also offers the advantages of reproducibility, collaboration, and clear communication. This guide has covered the basic steps to get you started, but the possibilities with R Markdown are extensive, so don't hesitate to explore further and create assignments that stand out.
 
