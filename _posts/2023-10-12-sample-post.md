@@ -10,14 +10,10 @@ image: "/assets/images/mountains.jpg"
 R Markdown is a powerful tool for creating reproducible documents that blend text, code, and output into a single file. It is widely used for creating reports, research papers, and even homework assignments. This guide will walk you through the process of formatting a homework assignment using R Markdown.
 ## Why Use R Markdown for Homework Assignments?
 Before we dive into the formatting details, let's discuss why R Markdown is a great choice for your homework assignments:
-
-Reproducibility: R Markdown documents are incredibly reproducible. This means that you can easily rerun the code, regenerate the output, and update your assignment as needed, ensuring consistency and correctness.
-
-Professional Presentation: R Markdown allows you to create well-structured and neatly formatted documents. Your homework will look professional, making it easier for your instructors to assess your work.
-
-Combines Text and Code: R Markdown seamlessly integrates your explanations, equations, and code. This not only enhances readability but also helps you demonstrate your thought process clearly.
-
-Easy Collaboration: R Markdown files can be shared with classmates or instructors. Others can review and comment on your work, making it a great tool for collaboration.
+  - Reproducibility: R Markdown documents are incredibly reproducible. This means that you can easily rerun the code, regenerate the        output, and update your assignment as needed, ensuring consistency and correctness.
+  - Professional Presentation: R Markdown allows you to create well-structured and neatly formatted documents. Your homework will look      professional, making it easier for your instructors to assess your work.
+  - Combines Text and Code: R Markdown seamlessly integrates your explanations, equations, and code. This not only enhances readability     but also helps you demonstrate your thought process clearly.
+  - Easy Collaboration: R Markdown files can be shared with classmates or instructors. Others can review and comment on your work,          making   it a great tool for collaboration.
 ## Getting Started
 To format your homework assignment using R Markdown, follow these steps:
 ### 1. Install R and RStudio
@@ -66,11 +62,11 @@ Choose the output format you prefer, e.g., PDF, HTML, or Word.
 R Markdown will generate a document in your chosen format, and you can save it to your desired location.
 ## Tips for a Well-Formatted Homework Assignment
 Here are some tips to ensure your homework assignment is well-formatted using R Markdown:
-Use Consistent Headers: Maintain a consistent header structure, such as using # for major sections, ## for subsections, and so on.
-Comment Your Code: Add comments to your code chunks to explain your thought process and the purpose of each code block.
-Label Figures and Tables: Label your figures and tables appropriately, and include captions to explain their significance.
-Properly Format Equations: If your assignment involves mathematical equations, use LaTeX syntax within your text to ensure proper rendering.
-Cite Your Sources: Provide proper citations for any references or external sources you use in your assignment.
+  - Use Consistent Headers: Maintain a consistent header structure, such as using # for major sections, ## for subsections, and so on.
+  - Comment Your Code: Add comments to your code chunks to explain your thought process and the purpose of each code block.
+  - Label Figures and Tables: Label your figures and tables appropriately, and include captions to explain their significance.
+  - Properly Format Equations: If your assignment involves mathematical equations, use LaTeX syntax within your text to ensure proper       rendering.
+  - Cite Your Sources: Provide proper citations for any references or external sources you use in your assignment.
 ## Conclusion
 Formatting your homework assignment using R Markdown not only makes your work look professional but also offers the advantages of reproducibility, collaboration, and clear communication. This guide has covered the basic steps to get you started, but the possibilities with R Markdown are extensive, so don't hesitate to explore further and create assignments that stand out.
 
