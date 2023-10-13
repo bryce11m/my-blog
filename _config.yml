@@ -24,7 +24,7 @@ description:
 baseurl: "/my-blog" # the name of the repository 
 url: "https://bryce11m.github.io" #  change this to "https://<your-github-username>.github.io"
 image: "images/beachsunset.jpg"
-author:
+author: Bryce Marshall
 copyright: BWM # Your initials or what you want the copyright to be.  Leave empty for no copyright
 footer_description: 
 
