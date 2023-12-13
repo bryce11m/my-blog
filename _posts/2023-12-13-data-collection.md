@@ -1,9 +1,8 @@
 ---
 title: "Exploring Atlanta Hawks Basketball Player Statistics"
-output:
-  html_document:
-    toc: true
-    toc_depth: 2
+author: Bryce Marshall
+description: A quick walkthrough   
+image: "/assets/images/mountains.jpg"
 ---
 
 # Introduction
