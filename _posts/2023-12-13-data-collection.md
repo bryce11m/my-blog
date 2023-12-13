@@ -15,7 +15,7 @@ Basketball is not just a sport; it's a passion that brings fans together. In thi
 
 To kick-start our analysis, we needed detailed information about each player. We utilized web scraping techniques to extract data from Basketball Reference. Below is a snippet of the Python code used for this process:
 
-```{r}
+```
 # Import necessary libraries
 import pandas as pd
 import requests
