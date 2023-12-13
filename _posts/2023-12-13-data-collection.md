@@ -32,8 +32,8 @@ links = []
 for link in soup.find_all('a'):
     if link['href'].startswith('/players') and len(link['href']) > 10:
         links.append(link.get('href'))
+```
 
-# ...
 # (Additional code for processing player information)
 
 # Create a DataFrame
