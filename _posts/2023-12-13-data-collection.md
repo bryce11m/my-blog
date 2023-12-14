@@ -15,7 +15,7 @@ Basketball is not just a sport; it's a passion that brings fans together. In thi
 
 To kick-start our analysis, I needed detailed information about each player. I utilized web scraping techniques to extract data from Basketball Reference. I started using pandas to pull a table from Basketball Reference about nearly six hundred players that have played for the Atlanta Hawks over the course of the team’s history. The table includes several numeric statistics about each player. Now since some of these players were playing back in the 1950's some data is missing for some players. Below is the python code to pull the basic table from Basketball Reference:
 
-```
+```python
 import pandas as pd
 
 # URL for the Atlanta Hawks players page
@@ -30,10 +30,10 @@ print(df_player_data.head())
 # Save the DataFrame to a CSV file
 df_player_data.to_csv('basketball_player_data.csv', index=False)
 
-```
+```python
 I created a csv file for this data frame, and the plan will be to create one for a second data frame and then merge the two into a final csv file with all the information. Now the second data frame is focused on going through each player link on the page and pulling two categorical values (position and shooting hand) for each player. To begin, I used beautiful soup and set up an empty list for a variable called links in order to run a for loop to go through each individual player:
 
-```
+```python
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -53,7 +53,7 @@ links = links[:-19]
 ```
 Now the links variable also included players outside the table so I just excluded the last nineteen rows so that the number of rows will match up with the first data frame. I will now set up the data to include a column for player name, position, and shooting hand. To do this I will have to clean up the code to exclude newline characters and unnecessary whitespace.
 
-```
+```python
 base_url = 'https://www.basketball-reference.com'
 search_word = 'Position:'
 
@@ -73,7 +73,7 @@ for web in links:
 ```
 Since the information I need is all in text form in a paragraph, I now need to go through the information and separate it out based on keywords. I will then put them into the three columns.
 
-```
+```python
 if p_tag:
            info_text = p_tag.text
            info_cleaned = ' '.join(info_text.replace(search_word, '').split())  # Remove newline characters
@@ -96,7 +96,7 @@ if p_tag:
 ```
 This code is painting out what to look for in the paragraph and to separate it based on position and shooting hand. Now that this is done, we can create the second data frame. However, I was experiencing troubles with pulling the position and shooting hand data since not every single player had the same format. As a result, I had to only pull the first word for the position so it all came out correctly. This will explain why you will see “Point” and “Shooting” instead of “Point Guard” and “Shooting Guard” in the data and in graphs. This is the same for the forward positions. You will also notice a combination of positions like “Guard/Forward” and so on for a few players. These were for players in the early 1950’s. Here is the code for creating the data frame:
 
-```
+```python
 # Creating DataFrame
 df = pd.DataFrame({'player': player, 'position': positions, 'shoots': shoots})
 df['position'] = df['position'].apply(lambda x: x.split()[0])  # Extract only the first word from the position column
@@ -109,7 +109,7 @@ df.to_csv('basketball_player_info2.csv', index=False)
 
 Next is to merge the two data frames together. To do this we first will have to change a column name in the first data frame so that it matches the player column in the second data frame. 
 
-```
+```python
 df_player_data = pd.read_csv('basketball_player_data.csv')
 
 # Rename the 'Unnamed: 1_level_0' column to 'player'
@@ -119,7 +119,7 @@ df_player_data = df_player_data.rename(columns={'Unnamed: 1_level_0': 'player'})
 
 Now we just save the second variable as reference to the second csv file created and merge the two and create a new and final combined csv with this code:
 
-```
+```python
 df = pd.read_csv('basketball_player_info2.csv')
 
 # Merge the two DataFrames on the 'player' column
