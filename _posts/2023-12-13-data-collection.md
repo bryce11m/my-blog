@@ -135,8 +135,9 @@ As responsible data practitioners, ethical considerations are paramount. In our 
 
 # Conclusion 
 
-Our journey into Atlanta Hawks player statistics has provided valuable insights into the team's dynamics. From player positions to shooting preferences, we've gained a deeper understanding of the factors influencing the team's performance.
-As we conclude this analysis, we invite fellow basketball enthusiasts to explore the data and draw their own conclusions. The full code and dataset are available [here](https://github.com/bryce11m/semester-project), encouraging collaboration and further exploration.
+Our journey into Atlanta Hawks player stats began with digging into Basketball Reference data through careful web scraping. We collected info on almost six hundred players, focusing not just on numbers but also on player positions and shooting preferences.
 
-Basketball is more than just a game – it's a story told through data.
+We kept things ethical, spacing out our requests and respecting Basketball Reference's rules. The magic happened when we merged the player info with the stats. Now, our dataset is a one-stop-shop, showing both the numbers and the stories behind Atlanta Hawks players.
+
+For those curious minds, the full code and data are up for grabs [here](https://github.com/bryce11m/semester-project). Feel free to dive in, explore, and maybe even add your touch to the story.
 
