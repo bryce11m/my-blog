@@ -30,7 +30,7 @@ print(df_player_data.head())
 # Save the DataFrame to a CSV file
 df_player_data.to_csv('basketball_player_data.csv', index=False)
 
-```python
+```
 I created a csv file for this data frame, and the plan will be to create one for a second data frame and then merge the two into a final csv file with all the information. Now the second data frame is focused on going through each player link on the page and pulling two categorical values (position and shooting hand) for each player. To begin, I used beautiful soup and set up an empty list for a variable called links in order to run a for loop to go through each individual player:
 
 ```python
