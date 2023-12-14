@@ -137,5 +137,6 @@ As responsible data practitioners, ethical considerations are paramount. In our 
 
 Our journey into Atlanta Hawks player statistics has provided valuable insights into the team's dynamics. From player positions to shooting preferences, we've gained a deeper understanding of the factors influencing the team's performance.
 As we conclude this analysis, we invite fellow basketball enthusiasts to explore the data and draw their own conclusions.
+
 Basketball is more than just a game – it's a story told through data.
 
