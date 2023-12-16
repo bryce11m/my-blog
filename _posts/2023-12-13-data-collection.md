@@ -131,7 +131,7 @@ merged_df.to_csv('merged_basketball_data.csv', index=False)
 
 # Ethical Considerations
 
-As responsible data practitioners, ethical considerations are paramount. In our web scraping process, we adhered to ethical guidelines by incorporating  a time delay between requests to avoid overloading the website’s server. Additionally, we respected the terms of use outlined by Basketball Reference.
+As responsible data practitioners, ethical considerations are paramount. In our web scraping process, we adhered to ethical guidelines by incorporating  a time delay between requests to avoid overloading the website’s server. Additionally, we respected the terms of use outlined by Basketball Reference. I implemented rate limiting in my code, spaced out my requests, and avoided aggressive crawling.
 
 # Conclusion 
 
